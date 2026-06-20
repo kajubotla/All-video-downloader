@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پریمیم ویڈیو ڈاؤنلوڈر</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-card">
+        <h1>ویڈیو ڈاؤنلوڈر</h1>
+        <p>فیس بک، یوٹیوب اور ٹک ٹاک سے ویڈیوز محفوظ کریں</p>
+        
+        <div class="platforms">
+            <button class="p-btn active" onclick="setPlatform(this, 'youtube')">YouTube</button>
+            <button class="p-btn" onclick="setPlatform(this, 'facebook')">Facebook</button>
+            <button class="p-btn" onclick="setPlatform(this, 'tiktok')">TikTok</button>
+        </div>
+
+        <input type="text" id="urlInput" placeholder="یہاں ویڈیو کا لنک پیسٹ کریں...">
+        <button class="download-btn" onclick="fetchVideo()">ڈاؤن لوڈ کریں ⬇️</button>
+        
+        <div class="footer-note">✅ محفوظ اور تیز رفتار ڈاؤن لوڈنگ</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
