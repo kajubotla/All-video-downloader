@@ -1,0 +1,9 @@
+body { background: #f0f2f5; font-family: 'Segoe UI', sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+.main-card { background: white; padding: 30px; border-radius: 30px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); width: 90%; max-width: 400px; text-align: center; }
+h1 { color: #1a1a1a; margin: 0 0 10px 0; }
+.platforms { display: flex; gap: 10px; margin-bottom: 20px; }
+.p-btn { flex: 1; padding: 12px; border: 2px solid #e0e0e0; background: white; border-radius: 15px; cursor: pointer; font-weight: bold; transition: 0.3s; }
+.p-btn.active { border-color: #27ae60; background: #e8f5e9; color: #27ae60; }
+input { width: 100%; padding: 15px; border-radius: 15px; border: 1px solid #ddd; box-sizing: border-box; margin-bottom: 20px; font-size: 16px; }
+.download-btn { width: 100%; padding: 18px; border-radius: 15px; border: none; background: linear-gradient(135deg, #2ecc71, #27ae60); color: white; font-size: 18px; font-weight: bold; cursor: pointer; }
+.footer-note { margin-top: 20px; font-size: 12px; color: #95a5a6; }
